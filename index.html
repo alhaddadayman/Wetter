@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Live Weather</title>
+    <link rel="icon" href="./Cloud.png">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="app.css" />
+    <link href="https://fonts.googleapis.com/css?family=Arbutus+Slab|Carter+One" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container " >
+      <h1>Live Weather   <sup><i class="fas fa-cloud-sun"></i></sup></h1>
+      <div class="row  " >
+        <div class="input-group m-5">
+          <input type="text" name="input" required="" id="cityInput" class="form-control rounded" placeholder="City ...." >
+          <button type="button" id="btn" class="btn btn-secondary ml-3">GO !</button>
+        </div>
+       
+      </div>
+      <hr>
+      <div class="row text-center" id="hide">
+          <div class="col-12">
+                <p id="cityNameId" class="font"> Damascus,SY : <span>15</span><sup>°C</sup> </p>
+        
+          </div>
+          
+      </div>
+      <hr>
+
+      <div class="row " id="hide1">
+          <div class=" col-md-4">
+              <div class="text-center font ">Wind</div>
+            <hr>
+              <div class="text-center font" id="windId">25</div>
+              <hr>
+          </div>
+          <div class=" col-md-4" >
+                <div class=" text-center font">Humidity</div>
+                <hr>
+                <div class="text-center font " id="humId">12</div>
+                <hr>
+            </div>
+            <div class=" col-md-4" >
+                    <div class=" text-center font">Description</div>
+                    <hr>
+                    <div class=" text-center font " id="desId">10</div>
+                  
+                </div>
+
+      </div>
+ 
+    <script src="app.js"></script>
+ 
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

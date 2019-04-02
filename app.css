@@ -1,0 +1,34 @@
+body{
+    background-image: url(./skyoung-kim-340109-unsplash.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    margin: 13% auto !important;
+    border-radius: 20px;
+}
+.form-control{
+    background-color: rgba(221, 245, 252, 0.432) !important;
+
+}
+h1{
+    color: white;
+    font-family: 'Carter One', cursive;
+    margin-left: 3%;
+
+}
+input{
+    color: white !important;
+}
+input::placeholder {
+     color: rgb(255, 255, 255) !important; 
+    font-size: 1.2em !important; 
+    font-style: italic; 
+}
+
+.font{
+    color: white;
+    font-family: 'Arbutus Slab', serif;
+    font-size: 2rem;
+}
