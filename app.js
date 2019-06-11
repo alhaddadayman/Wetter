@@ -8,7 +8,7 @@ let appId = "&APPID=d2c88add7b631eb9d5c34c5c48de6565";
 let units = "&units=metric";
 $.ajax({
     //JSON URL
-    url: 'http://api.openweathermap.org/data/2.5/weather?q='+city+appId+units,
+    url: 'https://api.openweathermap.org/data/2.5/weather?q='+city+appId+units,
     // type of request ('GET' or 'POSt')
     type: "GET",
     // json or html or xml
